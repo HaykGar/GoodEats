@@ -1,0 +1,83 @@
+.grocerylist-container {
+  display: flex;
+  align-items: center;
+  margin: 0px 40px 0px 30px;
+}
+
+.ingredient-input {
+  flex: 7;
+  padding: 8px;
+  margin-right: 4px;
+}
+
+.add-item-button {
+  flex: 1;
+  padding: 4px;
+  font-size: 18px;
+  height: 34px;
+  background-color: rgb(81, 119, 71);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-item-button:hover {
+  background-color: rgb(79, 101, 64);
+}
+
+.discard-button {
+  padding: 8px 12px;
+  background-color: rgb(172, 68, 59);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.discard-button:hover {
+  background-color: rgb(150, 54, 45);
+}
+
+.checkbox {
+  display: none; /* Hide checkbox */
+}
+
+.grocery-item {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.grocery-item:hover,
+.grocery-item.checked {
+  color: rgb(172, 68, 59);
+  text-decoration: line-through;
+}
+
+.grocery-header{
+  color: rgb(54, 97, 69);
+  font-size: 24;
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+.message {
+  color: #0f699e;
+  padding: 16px;
+  text-align: center;
+}
+
+.message-line1 {
+  font-weight: bold;
+  color: rgb(107, 66, 99);
+  font-size: 24px;
+}
+
+.message-line2 {
+  color: rgb(107, 66, 99);
+  font-size: 18px;
+}
+  
+  

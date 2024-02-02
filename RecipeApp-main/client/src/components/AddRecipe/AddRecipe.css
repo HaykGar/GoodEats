@@ -1,0 +1,74 @@
+.add-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    margin: 0px 10px 0px 10px;
+  }
+
+.label-container {
+    display: flex;
+    margin: 0px 0px 0px 30px;
+}
+
+.header-text {
+    font-size: 35px;
+    color:rgb(54, 97, 69);
+    margin: 10px 0px 10px 40px;
+}
+
+.label-text {
+    font-size: 24px;
+    color: rgb(85, 57, 80);
+    margin: 10px 10px 0px 10px;
+}
+
+.add-button {
+    font-size: 18px;
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: rgb(81, 119, 71); 
+    color: white;
+    position: static;
+  }
+
+.add-button:hover {
+    background-color: rgb(79, 101, 64); 
+}
+
+.add-ingredient-button {
+    background-color: rgb(85, 57, 80);
+}
+
+.add-ingredient-button:hover {
+    background-color: rgb(62, 43, 58);
+    
+  }
+  
+.add-error {
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+    color: rgb(193, 66, 54);
+}
+
+.removable-item {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.removable-item:hover {
+  color: red;
+  text-decoration: line-through;
+}
+
+.unit-dropdown {
+  background-color: rgb(242, 239, 233); 
+  
+}
+
+.error-message {
+  color: red; 
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold; 
+}

@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Kalam';
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:antiquewhite
+}
+
+code {
+  font-family: 'Kalam';
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+button {
+  font-family: 'Kalam';
+}
+
+input {
+  font-family: 'Kalam';
+  background-color:rgb(242, 239, 233);
+}
+
+select {
+  font-family: 'Kalam';
+}
+
