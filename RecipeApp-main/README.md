@@ -3,7 +3,7 @@
 ## Start by cloning.
 
 First, clone the repo.
-$ git clone https://github.com/laurenstevens257/RecipeApp.git
+$ git clone https://github.com/HaykGar/GoodEats.git
 
 ## Install necessary dependencies.
 
